@@ -34,6 +34,9 @@ list-databases-size.sql             :  List top 20 databases the user can connec
                                        I started with the query run by the \l+ psql command and sorted by size 
                                        and added a limit of 20
 
+list-unlogged-tables.sql            : List all UNLOGGED tables in the current database.  For more information on UNLOGGED tables see 
+                                      https://www.postgresql.org/docs/9.6/static/sql-createtable.html#SQL-CREATETABLE-UNLOGGED
+
 #####################################
 rds-support-tools/postgres/diag/shell
 #####################################
